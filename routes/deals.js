@@ -39,10 +39,16 @@ router.addDeal = function(req, res) {
         res.json({ message: 'Deal NOT Added!'});
 }
 router.incrementPrice = function(req, res) {
-    var deal = getByValue(deals,req.params.id);
-    deal.price += 20;
-    res.json({ message: 'Successfully Updated!'});
-}
+        //Add 1 to upvotes property of the selected donation based on its id
+        var deal = getByValue(deals,req.params.id);
+        if (deal) {
+            deal.price += 20;
+            router.findAll(req,res); 
+        } else {
+            res.status(404);
+            res.json({ message: 'Invalid Deal Id!'});
+        }     
+    };
 router.deleteDeal = function(req, res) {
     var deal = getByValue(deals,req.params.id);
     var index = deals.indexOf(deal);

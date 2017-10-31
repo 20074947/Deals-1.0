@@ -47,4 +47,29 @@ describe('POST /deals', function () {
                   });
           });
       });
+describe('PUT /deals/:id/price', function () {
+    it('should return all deals with specified deal updated', function(done) {
+        chai.request(server)
+            .put('/deals/1000001/price')
+            .end(function(err, res) {
+                expect(res).to.have.status(200);
+                expect(res.body).be.be.a('array');
+                var result = _.map(res.body, function (deal) {
+                    return { id: deal.id, 
+                        price: deal.price };
+                }  );
+                expect(result).to.include( { id: 1000001, price: 34  } );
+                done();
+            });
+    });
+    it('should return a 404 status and message for invalid deal id', function(done) {
+        chai.request(server)
+            .put('/deals/1100001/price')
+            .end(function(err, res) {
+                expect(res).to.have.status(404);
+                expect(res.body).to.have.property('message').equal('Invalid Deal Id!') ;
+                done();
+            });
+    });
+});
   });
