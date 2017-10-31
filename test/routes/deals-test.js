@@ -101,8 +101,28 @@ describe('DELETE /deals/:id', function () {
             .end(function(err, res) {
                 expect(res).to.have.status(200);
                 done();
-            
+      
 });
 });   
   }); 
+describe('GET /deals/:id', function () {
+              it('should return a specific deal with a valid id', function(done) {
+                    chai.request(server)
+                        .get('/deals/1000000')
+                        .end(function(err, res) {
+      expect(res).to.have.status(200);
+      done();
+  });
+              });
+        
+ it('should return a 404 status and message for invalid deal id', function(done) {
+        chai.request(server)
+            .get('/deals/1100001')
+            .end(function(err, res) {
+                expect(res).to.have.status(404);
+               expect(res.body).to.have.property('message').equal('Deal NOT Found!') ;
+                done();
+  });          
+});
+}); 
   });

@@ -16,8 +16,10 @@ router.findOne = function(req, res) {
 
     if(deal != null)
         res.json(deal);
-    else
+    else{
+            res.status(404);
         res.json({ message: 'Deal NOT Found!'});
+    }
 }
 router.addDeal = function(req, res) {
     var id = Math.floor((Math.random() * 1000000) + 1);
