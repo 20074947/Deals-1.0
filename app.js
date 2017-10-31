@@ -45,6 +45,18 @@ app.use(function(req, res, next) {
 });
 
 // error handler
+if (app.get('env') === 'dev') {
+    app.use(function(err, req, res, next) {
+        res.status(err.status || 500);
+        res.render('error', {
+            message: err.message,
+            error: err
+        });
+    });
+}
+if (process.env.NODE_ENV !== 'test') {  
+        app.use(logger('dev'));
+    }
 app.use(function(err, req, res, next) {
     // set locals, only providing error in development
     res.locals.message = err.message;

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha test/routes/deals-test.js"
+    "test": "set NODE_ENV=test && mocha test/routes/deals-test.js"
   },
   "dependencies": {
     "body-parser": "~1.17.1",

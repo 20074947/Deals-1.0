@@ -26,5 +26,25 @@ describe('Deals', function (){
   });
               });
         });
-
+describe('POST /deals', function () {
+          it('should return confirmation message and update datastore', function(done) {
+              var deal = { 
+    name: "Shampoo",
+    location: "Deals",
+    category: "beauty",
+    startdate: "10/10/2017",
+    expirydate: "27/10/2017",
+    information: "get one = free one",
+    price: 27
+                };
+                chai.request(server)
+                  .post('/deals')
+                  .send(deal)
+                  .end(function(err, res) {
+                       expect(res).to.have.status(200);
+               expect(res.body).to.have.property('message').equal('Deal Added!' ) ;
+                     done();
+                  });
+          });
+      });
   });
