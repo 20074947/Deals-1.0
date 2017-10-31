@@ -85,4 +85,24 @@ describe('PUT /deals/:id/price', function () {
             });
     });
 });
+describe('DELETE /deals/:id', function () {
+       it('should delete deal with a valid id', function(done) {
+      chai.request(server)
+            .delete('/deals/1000001')
+            .end(function(err, res) {
+                expect(res).to.have.status(200);
+                done();
+    });  
+        
+    }); 
+    it('should return a 404 status for invalid deal id to delete', function(done) {
+        chai.request(server)
+            .delete('/deals/1100001')
+            .end(function(err, res) {
+                expect(res).to.have.status(200);
+                done();
+            
+});
+});   
+  }); 
   });

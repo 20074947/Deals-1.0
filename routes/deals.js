@@ -58,7 +58,8 @@ router.deleteDeal = function(req, res) {
 
     if((currentSize - 1) == deals.length)
         res.json({ message: 'Deal Deleted!'});
-    else
+    else{
         res.json({ message: 'Deal NOT Deleted!'});
+    }
 }
 module.exports = router;
