@@ -34,5 +34,24 @@ describe('Customers', function() {
                 });
         });
     });
-
+    describe('POST /customers', function() {
+        it('should return confirmation message and update datastore', function(done) {
+            var customer = {
+                firstName: "Manuel",
+                secondName: "Doudi",
+                email: "Manue2274@live.com",
+                password: "axdevf",
+                phone: "0899789887",
+                address: "Lismore"
+            };
+            chai.request(server)
+                .post('/customers')
+                .send(customer)
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message').equal('customer Added!');
+                    done();
+                });
+        });
+    });
 });
