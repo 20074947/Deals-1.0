@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39ae7814-d521-4328-b48b-d9297390cc96" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/routes/customers-test.js" afterPath="$PROJECT_DIR$/test/routes/customers-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -109,7 +108,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="437" />
     <option name="y" value="93" />
     <option name="width" value="1026" />
@@ -1356,15 +1355,15 @@
       <workItem from="1508768743669" duration="2807000" />
       <workItem from="1509453905479" duration="3690000" />
       <workItem from="1509477996282" duration="1418000" />
-      <workItem from="1509719517533" duration="4532000" />
+      <workItem from="1509719517533" duration="5031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20055000" />
+    <option name="totallyTimeSpent" value="20554000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />

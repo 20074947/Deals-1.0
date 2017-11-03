@@ -79,4 +79,24 @@ describe('Customers', function() {
                 });
         });
     });
+    describe('DELETE /customers/:id', function() {
+        it('should delete customer with a valid id', function(done) {
+            chai.request(server)
+                .delete('/customers/1234567')
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    done();
+                });
+
+        });
+        it('should return a 404 status for invalid deal id to delete', function(done) {
+            chai.request(server)
+                .delete('/customers/1100001')
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    done();
+
+                });
+        });
+    });
 });
