@@ -89,13 +89,33 @@ describe('Customers', function() {
                 });
 
         });
-        it('should return a 404 status for invalid deal id to delete', function(done) {
+        it('should return a 404 status for invalid customer id to delete', function(done) {
             chai.request(server)
                 .delete('/customers/1100001')
                 .end(function(err, res) {
                     expect(res).to.have.status(200);
                     done();
 
+                });
+        });
+    });
+    describe('GET /customers/:id', function() {
+        it('should return a specific customer with a valid id', function(done) {
+            chai.request(server)
+                .get('/customers/1234567')
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    done();
+                });
+        });
+
+        it('should return a 404 status and message for invalid customer id', function(done) {
+            chai.request(server)
+                .get('/customers/1100001')
+                .end(function(err, res) {
+                    expect(res).to.have.status(200);
+                    expect(res.body).to.have.property('message').equal('customer NOT Found!');
+                    done();
                 });
         });
     });

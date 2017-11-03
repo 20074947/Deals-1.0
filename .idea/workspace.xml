@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39ae7814-d521-4328-b48b-d9297390cc96" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/customers.js" afterPath="$PROJECT_DIR$/routes/customers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/routes/customers-test.js" afterPath="$PROJECT_DIR$/test/routes/customers-test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,14 +31,14 @@
       <file leaf-file-name="deals.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/deals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="296">
               <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="customers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/customers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -49,19 +51,29 @@
       <file leaf-file-name="deals.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/deals.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="221">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customers.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/customers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="177">
+              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding>
+                <marker date="1509748284644" expanded="true" signature="367:568" ph="{...}" />
+                <marker date="1509748284644" expanded="true" signature="490:566" ph="{...}" />
+                <marker date="1509748284644" expanded="true" signature="602:1263" ph="{...}" />
+                <marker date="1509748284644" expanded="true" signature="904:1062" ph="{&quot;id&quot;: id...}" />
+                <marker date="1509748284644" expanded="true" signature="1130:1180" ph="{&quot;message&quot;: 'customer Added!'...}" />
+                <marker date="1509748284644" expanded="true" signature="1209:1259" ph="{&quot;message&quot;: 'customer Added!'...}" />
+                <marker date="1509748284644" expanded="true" signature="1300:1683" ph="{...}" />
+                <marker date="1509748284644" expanded="true" signature="1542:1594" ph="{&quot;message&quot;: 'customer Deleted!'...}" />
+                <marker date="1509748284644" expanded="true" signature="1623:1679" ph="{&quot;message&quot;: 'customer NOT Deleted!'...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +104,8 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/deals.js" />
         <option value="$PROJECT_DIR$/models/deals.js" />
-        <option value="$PROJECT_DIR$/routes/customers.js" />
         <option value="$PROJECT_DIR$/models/customers.js" />
+        <option value="$PROJECT_DIR$/routes/customers.js" />
       </list>
     </option>
   </component>
@@ -1355,12 +1367,12 @@
       <workItem from="1508768743669" duration="2807000" />
       <workItem from="1509453905479" duration="3690000" />
       <workItem from="1509477996282" duration="1418000" />
-      <workItem from="1509719517533" duration="5031000" />
+      <workItem from="1509719517533" duration="5669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20554000" />
+    <option name="totallyTimeSpent" value="21192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -1433,7 +1445,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
           <caret line="72" column="24" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-          <folding />
+          <folding>
+            <marker date="1509748284644" expanded="true" signature="367:568" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="490:566" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="602:1263" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="904:1062" ph="{&quot;id&quot;: id...}" />
+            <marker date="1509748284644" expanded="true" signature="1130:1180" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1209:1259" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1300:1683" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="1542:1594" ph="{&quot;message&quot;: 'customer Deleted!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1623:1679" ph="{&quot;message&quot;: 'customer NOT Deleted!'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1473,7 +1495,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1509748284644" expanded="true" signature="367:568" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="490:566" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="602:1263" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="904:1062" ph="{&quot;id&quot;: id...}" />
+            <marker date="1509748284644" expanded="true" signature="1130:1180" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1209:1259" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1300:1683" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="1542:1594" ph="{&quot;message&quot;: 'customer Deleted!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1623:1679" ph="{&quot;message&quot;: 'customer NOT Deleted!'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1521,7 +1553,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-          <folding />
+          <folding>
+            <marker date="1509748284644" expanded="true" signature="367:568" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="490:566" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="602:1263" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="904:1062" ph="{&quot;id&quot;: id...}" />
+            <marker date="1509748284644" expanded="true" signature="1130:1180" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1209:1259" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1300:1683" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="1542:1594" ph="{&quot;message&quot;: 'customer Deleted!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1623:1679" ph="{&quot;message&quot;: 'customer NOT Deleted!'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1585,7 +1627,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding />
+          <folding>
+            <marker date="1509748284644" expanded="true" signature="367:568" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="490:566" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="602:1263" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="904:1062" ph="{&quot;id&quot;: id...}" />
+            <marker date="1509748284644" expanded="true" signature="1130:1180" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1209:1259" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1300:1683" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="1542:1594" ph="{&quot;message&quot;: 'customer Deleted!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1623:1679" ph="{&quot;message&quot;: 'customer NOT Deleted!'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1636,34 +1688,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/deals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/customers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/deals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1673,6 +1701,40 @@
         <state relative-caret-position="153">
           <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/deals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/deals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/customers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1509748284644" expanded="true" signature="367:568" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="490:566" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="602:1263" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="904:1062" ph="{&quot;id&quot;: id...}" />
+            <marker date="1509748284644" expanded="true" signature="1130:1180" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1209:1259" ph="{&quot;message&quot;: 'customer Added!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1300:1683" ph="{...}" />
+            <marker date="1509748284644" expanded="true" signature="1542:1594" ph="{&quot;message&quot;: 'customer Deleted!'...}" />
+            <marker date="1509748284644" expanded="true" signature="1623:1679" ph="{&quot;message&quot;: 'customer NOT Deleted!'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
