@@ -45,7 +45,7 @@ describe('Customers', function() {
                         return {
                             id: customer.id,
                             firstName: customer.firstName
-                        }
+                        };
                     });
                     expect(result).to.include({
                         id: 1234567,
@@ -62,12 +62,12 @@ describe('Customers', function() {
     describe('POST /customers', function() {
         it('should return confirmation message and update datastore', function(done) {
             var customer = {
-                firstName: "Manuel",
-                secondName: "Doudi",
-                email: "Manue2274@live.com",
-                password: "axdevf",
-                phone: "0899789887",
-                address: "Lismore"
+                firstName: 'Manuel',
+                secondName: 'Doudi',
+                email: 'Manue2274@live.com',
+                password: 'axdevf',
+                phone: '0899789887',
+                address: 'Lismore'
             };
             chai.request(server)
                 .post('/customers')

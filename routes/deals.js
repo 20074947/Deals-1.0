@@ -4,7 +4,7 @@ var router = express.Router();
 
 router.findAll = function(req, res) {
     res.json(deals);
-}
+};
 
 function getByValue(arr, id) {
     var result = arr.filter(function(o) {
@@ -25,7 +25,7 @@ router.findOne = function(req, res) {
             message: 'Deal NOT Found!'
         });
     }
-}
+};
 router.addDeal = function(req, res) {
     var id = Math.floor((Math.random() * 1000000) + 1);
     //parameters to store
@@ -39,14 +39,14 @@ router.addDeal = function(req, res) {
     var currentSize = deals.length;
 
     deals.push({
-        "id": id,
-        "name": c,
-        "location": b,
-        "category": d,
-        "startdate": e,
-        "expirydate": f,
-        "information": h,
-        "price": p
+        'id': id,
+        'name': c,
+        'location': b,
+        'category': d,
+        'startdate': e,
+        'expirydate': f,
+        'information': h,
+        'price': p
     });
 
     if ((currentSize + 1) == deals.length)
@@ -57,7 +57,7 @@ router.addDeal = function(req, res) {
         res.json({
             message: 'Deal NOT Added!'
         });
-}
+};
 router.incrementPrice = function(req, res) {
     var deal = getByValue(deals, req.params.id);
     if (deal) {
@@ -86,5 +86,5 @@ router.deleteDeal = function(req, res) {
             message: 'Deal NOT Deleted!'
         });
     }
-}
+};
 module.exports = router;

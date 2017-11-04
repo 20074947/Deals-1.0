@@ -4,7 +4,7 @@ var router = express.Router();
 
 router.findAllC = function(req, res) {
     res.json(customers);
-}
+};
 
 function getByValue(arr, id) {
     var result = arr.filter(function(o) {
@@ -24,7 +24,7 @@ router.findOneC = function(req, res) {
             message: 'customer NOT Found!'
         });
     }
-}
+};
 router.addC = function(req, res) {
     var id = Math.floor((Math.random() * 1000000) + 1);
     //parameters to store
@@ -37,13 +37,13 @@ router.addC = function(req, res) {
     var currentSize = customers.length;
 
     customers.push({
-        "id": id,
-        "firstName": c,
-        "secondName": b,
-        "email": d,
-        "password": e,
-        "phone": f,
-        "address": h
+        'id': id,
+        'firstName': c,
+        'secondName': b,
+        'email': d,
+        'password': e,
+        'phone': f,
+        'address': h
     });
 
     if ((currentSize + 1) == customers.length)
@@ -54,7 +54,7 @@ router.addC = function(req, res) {
         res.json({
             message: 'customer Added!'
         });
-}
+};
 router.deleteC = function(req, res) {
     var customer = getByValue(customers, req.params.id);
     var index = customers.indexOf(customer);
@@ -70,5 +70,5 @@ router.deleteC = function(req, res) {
         res.json({
             message: 'customer NOT Deleted!'
         });
-}
+};
 module.exports = router;
