@@ -19,10 +19,11 @@ router.findOneC = function(req, res) {
 
     if (customer != null)
         res.json(customer);
-    else{
+    else {
         res.json({
             message: 'customer NOT Found!'
-        });}
+        });
+    }
 }
 router.addC = function(req, res) {
     var id = Math.floor((Math.random() * 1000000) + 1);

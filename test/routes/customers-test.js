@@ -4,32 +4,32 @@ var server = require('../../bin/www');
 var expect = chai.expect;
 
 chai.use(chaiHttp);
-var _ = require('lodash' );
+var _ = require('lodash');
 chai.use(require('chai-things'));
 
 describe('Customers', function() {
-        describe('customers', function() {
+    describe('customerss', function() {
         beforeEach(function() {
             while (datastore.length > 0) {
                 datastore.pop();
             }
             datastore.push({
-                 id: 1234567,
-    firstName: 'Emma',
-    secondName: 'O Donnell',
-    email: 'emma.odonnell2@live.com',
-    password: 'fullclip',
-    phone: '0877877654',
-    address: 'Deerpark East'
+                id: 1234567,
+                firstName: 'Emma',
+                secondName: 'O Donnell',
+                email: 'emma.odonnell2@live.com',
+                password: 'fullclip',
+                phone: '0877877654',
+                address: 'Deerpark East'
             });
             datastore.push({
                 id: 7654321,
-    firstName: 'Jaja',
-    secondName: 'O Donnell',
-    email: 'jaja.odonnell2@live.com',
-    password: 'lololo',
-    phone: '0873426754',
-    address: 'Cork'
+                firstName: 'Jaja',
+                secondName: 'O Donnell',
+                email: 'jaja.odonnell2@live.com',
+                password: 'lololo',
+                phone: '0873426754',
+                address: 'Cork'
             });
         });
     });
