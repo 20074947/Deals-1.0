@@ -29,7 +29,7 @@ Finally, this web site will be effortless and clear to use.
         $ npm test
 
         > deals-1.0@0.0.0 test C:\Users\Kamel\WebStorm 2017.2.4\SSD\Deals-1.0
-        > set NODE_ENV=test && mocha test/routes/deals-test.js
+        > set NODE_ENV=test && mocha test/routes/*
 
 
         Deals
@@ -56,15 +56,6 @@ Finally, this web site will be effortless and clear to use.
        √ should return a 404 status and message for invalid deal id
 
 
-
-           8 passing (410ms)
-
-
-        $npm test
-
-        > deals-1.0@0.0.0 test C:\Users\Kamel\WebStorm 2017.2.4\SSD\Deals-1.0
-        > set NODE_ENV=test && mocha test/routes/customers-test.js
-
         Customers
     GET /customers
      GET /customers 200 37.006 ms - 314
@@ -83,5 +74,10 @@ Finally, this web site will be effortless and clear to use.
       GET /customers/1100001 200 4.515 ms - 33
       √ should return a 404 status and message for invalid customer id
 
-      6 passing (432ms)
+      14 passing (432ms)
 
+## Extra features.
+
+   + Exception testing
+   + Branch-Edit-Merge workflow
+   + Code Quality
